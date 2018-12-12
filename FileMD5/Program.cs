@@ -13,9 +13,8 @@ namespace FileMD5
         static void Main(string[] args)
         {
            
-            GetMD5HashFromFile(@"D:\下载\刑碧旗日记（重口请慎入） (1).doc");
-            GetMD5HashFromFile(@"D:\下载\刑碧旗日记（重口请慎入） (2).doc");
-            GetMD5HashFromFile(@"D:\下载\刑碧旗日记（重口请慎入）.doc");
+            GetMD5HashFromFile(@"");
+          
         }
 
         private static string GetMD5HashFromFile(string fileName)
